@@ -316,6 +316,8 @@ $body$
 </html>
 EOF
 
+SLIDES_TITLE=${SLIDES_TITLE:-presentation}
+
 main () {
     local document="$1"; shift || return
     local out="$1"; shift || return
@@ -324,7 +326,7 @@ main () {
 
     echo "$STYLE" > $template_file
 
-    pandoc --metadata title=presentation \
+    pandoc --metadata title=${SLIDES_TITLE} \
            --section-divs \
            --template $template_file \
            -i "$document" \
