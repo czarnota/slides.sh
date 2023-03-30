@@ -32,6 +32,8 @@ read -rd '' STYLE <<'EOF'
     }
 
     .language-console .gp { color: #6ec071; }
+    .sourceCode.diff .st { color: #cc6666; }
+    .sourceCode.diff .va { color: #b5bd68; }
 
     /*
 
