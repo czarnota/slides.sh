@@ -15,7 +15,7 @@ read -rd '' STYLE <<'EOF'
                   display: flex; flex-direction: column; overflow: hidden;
                   flex: 1 1 auto; box-shadow: 0 0 0.5em #ddd; color: #333; }
     h1 { align-items: center; flex-direction: row; padding: 0.75em; margin: 0.5em auto;}
-    body { margin: 0; padding: 0; font-family: sans-serif;
+    body { margin: 0; padding: 0; font-family: Helvetica, sans-serif;
            background: rgb(237, 237, 240); font-size: 200px; }
     h2 { font-size: 2em; color: #005; padding: 0; }
     img { display: block; margin: auto; width: 100%; height: 100%;
